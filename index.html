@@ -19,6 +19,7 @@ header{height:82px;display:flex;align-items:center;justify-content:space-between
 nav{display:flex;gap:27px;color:#aebcaf;font-size:.92rem}nav a{text-decoration:none;transition:color .2s}nav a:hover{color:var(--green)}
 .header-cta,.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:850;border-radius:11px;padding:11px 19px;transition:transform .2s,background .2s,border-color .2s}
 .header-cta{border:1px solid #45633d;background:#111a12;font-size:.9rem;color:var(--green)}.header-cta:hover,.btn:hover{transform:translateY(-2px)}
+.header-social{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border:1px solid #294b70;border-radius:11px;background:#101923;color:#e8f2ff;text-decoration:none;font-size:.88rem;font-weight:800;white-space:nowrap;transition:transform .2s,border-color .2s}.header-social:hover{transform:translateY(-2px);border-color:#438bd0}.facebook-mark{width:20px;height:20px;display:block;flex:0 0 20px}
 .hero{padding:86px 0 76px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
 .pill{display:inline-flex;align-items:center;gap:9px;border:1px solid #527d3b;background:#142114;color:var(--green);border-radius:50px;padding:6px 14px;font-size:.86rem;font-weight:800;box-shadow:0 0 28px #9cff5710}
 .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 13px var(--green)}
@@ -49,7 +50,7 @@ footer{border-top:1px solid #b6ff7918;padding:25px 0;color:#98a99a;font-size:.88
 <header class="wrap">
  <a class="brand" href="#" aria-label="MarketPro الرئيسية" style="text-decoration:none">Market<span>Pro</span></a>
  <nav aria-label="القائمة الرئيسية"><a href="#features">المميزات</a><a href="#how">طريقة العمل</a><a href="#license">الترخيص</a><a href="#faq">الأسئلة</a></nav>
- <a class="header-cta" href="#download">تحميل البرنامج ↙</a>
+ <div class="header-actions" style="display:flex;align-items:center;gap:9px"><a class="header-social" href="https://www.facebook.com/profile.php?id=61596266398593" target="_blank" rel="noopener noreferrer" aria-label="تواصل معنا على فيسبوك"><svg class="facebook-mark" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#1877F2"/><path fill="#fff" d="M13.55 20v-7.3h2.45l.37-2.85h-2.82V8.03c0-.83.23-1.4 1.42-1.4h1.51V4.08c-.26-.04-1.16-.11-2.2-.11-2.18 0-3.67 1.33-3.67 3.78v2.1H8.15v2.85h2.46V20z"/></svg><span>فيسبوك</span></a><a class="header-cta" href="#download">تحميل البرنامج ↙</a></div>
 </header>
 <main class="wrap">
  <section class="hero">
